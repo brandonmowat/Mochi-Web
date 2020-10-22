@@ -1,11 +1,10 @@
 {
   "private": true,
-  "name": "minimal-blog",
+  "name": "mochi-web",
   "description": "Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.",
   "version": "1.3.2",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "Brandon Mowat <me@brandonmowat.com>",
   "license": "0BSD",
-  "starter-name": "gatsby-starter-minimal-blog",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",

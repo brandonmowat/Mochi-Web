@@ -1,7 +1,11 @@
+require(`dotenv`).config({
+  path: `.env`,
+})
+
 const axios = require('axios');
 
 const get = endpoint =>
-  axios.get(`https://brandon-server.herokuapp.com/${endpoint}`);
+  axios.get(`${process.env.API_ROOT}${endpoint}`);
 
 exports.createPages = async ({ actions: { createPage } }) => {
   const { data: articles } = await get('articles/');
